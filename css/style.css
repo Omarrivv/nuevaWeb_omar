@@ -1,0 +1,154 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: white;
+}
+h1{
+    font-size: 50px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    padding: 6px 10%;
+}
+.header .logo-indice img{
+    height: 75px;
+    width: auto;
+}
+.header .nav-enlaces{
+    list-style: none;
+}
+.header .nav-enlaces li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.header .nav-enlaces a{
+    font-weight: 710;
+    color: black;
+    text-decoration: none;
+    padding: 9px 20px;
+    background: orange;
+    border-radius: 50px;
+}
+.contenedor{
+    margin: 25px;
+    align-items: center;
+    text-align: center;
+}
+.contenedor img{
+    margin: 25px;
+    height: 450px;
+    width: 750px;
+}
+.contenedor-quienes-somos h2{
+    color: red;
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.contenedor-quienes-somos p{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 38px;
+    text-align: justify;
+    line-height: 200%;
+}
+.content-desarrollo{
+    display: inline;
+    align-items: center;
+}
+.text-historico{
+    flex: auto;
+}
+.h2-dh-p{
+    color: rgb(17, 0, 255);
+    margin-left: 35px;
+    margin-top: 15px;
+}
+.content-desarrollo p{
+    margin-top: 20px;
+    margin-left: 35px;
+    margin-right: 38px;
+    text-align: justify;
+    line-height: 200%;
+}
+.text-historico span{
+    float: right;
+    margin-left: 10px;
+}
+.text-historico img {
+    width: 200px;
+    height: auto;
+}
+.text-historico p {
+    text-align: justify;
+}
+.boton {
+    margin-top: 20px;
+    margin-left: 30px;
+    padding: 20px;
+    background-color: orange;
+    border-radius: 50rem;
+    border-bottom: 20vh;
+    display: block;
+}
+.seccion-mision-vision{
+    margin-top: 30vh;
+    background-color: azure;
+} 
+.mision-vision{
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.h2-mision{
+    color: #E49E56;
+    margin-top: 25px;
+}
+.h2-vision{
+    color: #E49E56;
+    margin-top: 25px;
+}
+.footer-contacto{
+    margin: 56;
+    background-color: cornsilk;
+    text-align: center;
+}
+.h2-youtube{
+    color: rgb(27, 117, 252);
+    text-align: center;
+    font-size: 40px;
+    padding: auto;
+}
+iframe {
+    display: block;
+    margin: 0 auto;
+}
+.footer-contacto{
+    background-color: blue;
+    padding: 20px;
+}
+.contacto-div {
+    text-align: left;
+    margin-left: 20px;
+    color: white;
+}
+h3{
+    color: white;
+    margin-left: 45px;
+}
+.contacto-div i {
+    margin-right: 10px; 
+}
+.contacto-div a {
+    color: white;
+    text-decoration: none;
+}
+.contacto-div a:hover {
+    text-decoration: underline;
+}
+
